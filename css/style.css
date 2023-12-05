@@ -1,0 +1,27 @@
+.navigation{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr; 
+    background: linear-gradient(to right, grey, #352b2b); 
+    padding: 1em;
+}
+
+.nav-item {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.headings{
+    text-align: center;
+
+}
+
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.75);;
+}
+a{
+    color: white;
+}
+body{
+    text-align: center;
+
+}
