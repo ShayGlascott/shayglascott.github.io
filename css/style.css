@@ -22,6 +22,8 @@ a {
 }
 
 body {
+    background-color: #ccc;
+    color: brown;
     font-family: 'Comic Sans MS', cursive;
     text-align: center;
     margin: 20px;
@@ -39,6 +41,9 @@ label {
     margin-bottom: 8px;
 }
 
+h1{
+    border-bottom: solid black 1px;
+}
 input,
 select {
     width: 100%;
@@ -60,6 +65,7 @@ button {
 p {
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 ul {
     margin-left: 25%;
