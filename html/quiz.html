@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Q3G4W7BE0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-5Q3G4W7BE0');
+    </script>
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5Q3G4W7BE0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-5Q3G4W7BE0');
-</script>
 <body>
     <nav class="navigation">
         <a href="../index.html" class="nav-item">Home</a>
@@ -25,20 +26,29 @@
     </nav>
     <h1>Favorite Food Quiz</h1>
 
-    <form action="" method="post">
-        <label for="q1">What is your favorite type of cuisine?</label>
-        <input type="text" id="q1" name="q1" required>
+    <form action="formResponse.html" method="post">
+        <fieldset>
 
-        <label for="q2">Do you prefer sweet or savory dishes?</label>
-        <select id="q2" name="q2" required>
-            <option value="sweet">Sweet</option>
-            <option value="savory">Savory</option>
-        </select>
+            <label for="q1">What is your favorite type of cuisine?</label>
+            <input type="text" id="q1" name="q1" required>
 
-        <label for="q3">What is your go-to comfort food?</label>
-        <input type="text" id="q3" name="q3" required>
+            <label for="q2">Do you prefer sweet or savory dishes?</label>
+            <select id="q2" name="q2" size="2" required>
+                <option value="sweet">Sweet</option>
+                <option value="savory">Savory</option>
+            </select>
 
-        <button type="submit">Submit</button>
+            <label for="q3">What is your comfort food?</label>
+            <input type="text" id="q3" name="q3" required>
+
+            <label>Do you like food?</label>
+
+            <input type="text" id="q4" name="q4" required>
+
+
+            <button type="submit">Submit</button>
+        </fieldset>
     </form>
 </body>
+
 </html>
